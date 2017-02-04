@@ -1,0 +1,5 @@
+@import "/template/movie-list/movie-list-template.wxss";
+
+page {
+  background-color: #ededed;
+}

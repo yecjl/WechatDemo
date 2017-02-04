@@ -1,0 +1,10 @@
+@import "/template/movie-item/movie-item-template.wxss";
+
+.movieGrid-content {
+    padding: 40rpx 0 0 6rpx;
+    height: 1300rpx;
+}
+.movieGrid-item {
+  float: left;
+  margin-bottom: 40rpx;
+}

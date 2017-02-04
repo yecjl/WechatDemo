@@ -1,0 +1,40 @@
+@import "/template/movie-item/movie-item-template.wxss";
+
+.movieList-container {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  margin-bottom: 20rpx;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.movieList-inner {
+  margin: 0 auto 20rpx; /*作为整体居中*/
+}
+.movieList-head {
+  flex-direction: row;
+  margin: 20rpx 24rpx 24rpx 24rpx;
+}
+
+.slogan {
+}
+
+.more {
+  float: right;
+}
+
+.more text {
+  color: #1f4ba5;
+}
+
+.more image {
+  width: 9rpx;
+  height: 16rpx;
+  margin-left: 10rpx;
+  vertical-align: middle;
+}
+
+.movieList-content {
+  display: flex;
+  flex-direction: row;
+}

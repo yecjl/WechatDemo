@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/movies/movie/movie",
+    "pages/movies/movie-more/movie-more",
+    "pages/welcome/welcome",
+    "pages/posts/post/post",
+    "pages/posts/post-detail/post-detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#84c1ff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/posts/post/post",
+        "text": "播吧",
+        "iconPath": "images/tab/movie.png",
+        "selectedIconPath": "images/tab/movie_hl.png"
+      },
+      {
+        "pagePath": "pages/movies/movie/movie",
+        "text": "电影",
+        "iconPath": "images/tab/yuedu.png",
+        "selectedIconPath": "images/tab/yuedu_hl.png"
+      }
+    ],
+    "borderStyle": "white",
+    "selectedColor": "#84c1ff"
+  }
+}
