@@ -1,4 +1,5 @@
 @import "/template/movie-list/movie-list-template.wxss";
+@import "/template/search/search-template.wxss";
 
 page {
   background-color: #ededed;

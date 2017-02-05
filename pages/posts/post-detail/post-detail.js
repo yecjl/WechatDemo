@@ -67,6 +67,14 @@ Page({
         isPlay: app.globalData.g_currentMusicPostId == that.data.postId ? app.globalData.g_isPlayingMusic : false
       });
     });
+    // 监听后台是否音乐播放停止
+    wx.onBackgroundAudioStop(function () {
+      // callback
+      app.globalData.g_isPlayingMusic = false;
+      that.setData({
+        isPlay: app.globalData.g_currentMusicPostId == that.data.postId ? app.globalData.g_isPlayingMusic : false
+      });
+    });
   },
 
   onCollectionTap: function (event) { // 收藏操作

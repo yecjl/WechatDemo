@@ -1,0 +1,5 @@
+<template name="search">
+    <view>
+        <input value="dsad" placeholder-style="color:red"/>
+    </view>
+</template>

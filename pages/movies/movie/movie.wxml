@@ -1,5 +1,7 @@
 <import src="/template/movie-list/movie-list-template.wxml" />
+<import src="/template/search/search-template.wxml" />
 <view class="movie-container">
+  <template is="search"></template>
   <template is="movieList" data="{{...inTheaters}}"></template>
   <template is="movieList" data="{{...comingSoon}}"></template>
   <template is="movieList" data="{{...top250}}"></template>
