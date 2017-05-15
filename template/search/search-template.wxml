@@ -1,5 +1,5 @@
 <template name="search">
     <view>
-        <input value="dsad" placeholder-style="color:red"/>
+        <input placeholder="dsad" bindconfirm="onBindConfirm" bindblur="onBindBlur"/>
     </view>
 </template>

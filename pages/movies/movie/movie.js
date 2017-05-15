@@ -59,6 +59,14 @@ Page({
     })
   },
 
+  onBindConfirm: function (event) { // 点击完成按钮时触发
+    console.log("点击完成: " + event.detail.value);
+  },
+
+  onBindBlur: function (event) { // 输入框失去焦点时触发
+    console.log("输入框失去焦点: " + event.detail.value);
+  },
+
   onReady: function () {
     // 页面渲染完成
   },
